@@ -1,0 +1,43 @@
+﻿@using ASP_MVC_Library.Models
+@model List<BookModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = $"Searching Results";
+}
+
+@if(Model.Count > 0 && Model != null)
+{
+    <div class="container">
+        <h1 class="text-center">Searching Results:</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Publisher</th>
+                    <th scope="col">Author(-s)</th>
+                    <th scope="col">Pages</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (BookModel book in Model)
+                {
+                    <tr>
+                        <th scope="row">@book.Id</th>
+                        <td>@book.Title</td>
+                        <td>@book.Publisher</td>
+                        <td>@string.Join(", ", book.Authors.Select(author => author.FirstName + " " + author.LastName))</td>
+                        <td>@book.Pages</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="container text-center">
+        <h1>No results!</h1>
+    </div>
+}

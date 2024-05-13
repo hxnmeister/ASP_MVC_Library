@@ -1,0 +1,40 @@
+Id:1
+Pages:222
+Title:Title1
+Publisher:Publisher1
+Authors:AuthorName1.1 AuthorLast1.1, AuthorName1.2 AuthorLast1.2
+Id:2
+Pages:232
+Title:Title2
+Publisher:Publisher2
+Authors:AuthorName2 AuthorLast2
+Id:3
+Pages:321
+Title:Title3
+Publisher:Publisher3
+Authors:AuthorName3 AuthorLast3
+Id:4
+Pages:222
+Title:Title4
+Publisher:Publisher4
+Authors:AuthorName4.1 AuthorLast4.1, AuthorName4.2 AuthorLast4.3, AuthorName4.3 AuthorLast4.2
+Id:5
+Pages:552
+Title:Title5
+Publisher:Publisher5
+Authors:AuthorName5 AuthorLast5
+Id:6
+Pages:321
+Title:SSSSSSSSSSSSSSSSSSSSSSSS
+Publisher:AAAAAAAAAAAAAAAAAAAAAAAAAAA
+Authors:Anton Antonovich,Sergei Sergeevich
+Id:7
+Pages:321
+Title:aaaaaaaaaaaaa
+Publisher:sssssssssssssss
+Authors:Anton Antonovich,Sergei Sergeevich
+Id:8
+Pages:123
+Title:daadaddaad
+Publisher:adadadadadad
+Authors:adadsadadadads

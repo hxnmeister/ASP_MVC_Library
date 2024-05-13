@@ -1,0 +1,4 @@
+Id:1
+Title:Title1
+Publisher:Publisher1
+Authors:AuthorName1 AuthorLast1

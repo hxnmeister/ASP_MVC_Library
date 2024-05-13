@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = $"Create a Book";
+}
+
+<div class="container">
+    <form action="/adding-book" method="post">
+        <div class="form-floating">
+            <input type="text" class="form-control my-3" name="title" id="title" placeholder="Some book title" required>
+            <label for="title">Book title:</label>
+        </div>
+
+        <div class="form-floating">
+            <input type="text" class="form-control mb-3" name="publisher" id="publisher" placeholder="Publisher" required>
+            <label for="publisher">Publisher:</label>
+        </div>
+
+        <div class="form-floating">
+            <input type="number" class="form-control mb-3" name="pages" id="pages" placeholder="Pages" required>
+            <label for="pages">Pages:</label>
+        </div>
+
+         <div class="form-floating">
+            <input type="text" class="form-control mb-3" name="authors" id="authors" placeholder="Name1 Last1, Name2 Last2" required>
+            <label for="authors">Authors (Use ',' to enter many authors):</label>
+        </div>
+
+        <button type="submit" class="btn btn-success">Send</button>
+    </form>
+</div>
