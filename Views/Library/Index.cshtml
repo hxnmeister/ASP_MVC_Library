@@ -7,21 +7,6 @@
 }
 
 <div class="container">
-    <div class="container d-flex justify-content-center mt-3">
-        <form action="/searching-results" method="post" class="row g-3">
-            <div class="form-floating col-auto">
-                <input type="text" class="form-control" name="searchingtext" id="searchingtext" placeholder="Enter text here to search...">
-                <label for="searchingtext">Search field:</label>
-            </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-success mt-2">Search</button>
-            </div>
-            <div class="col-auto">
-                <a href="/add-book" class="btn btn-primary mt-2">Add book</a>
-            </div>
-        </form>
-    </div>
-
     <div class="container mt-5">
         <div class="row row-cols-4 gy-3 col-10 text-break m-auto">
             @foreach (BookModel book in Model)

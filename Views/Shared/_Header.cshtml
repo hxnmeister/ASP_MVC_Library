@@ -1,0 +1,26 @@
+﻿<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Navbar</a>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </div>
+            </div>
+
+            <form action="/searching-results" method="post" class="d-flex justify-content-end p-1" role="search">
+                <div class="form-floating me-2">
+                    <input type="text" class="form-control" name="searchingtext" id="searchingtext" placeholder="Enter text here to search...">
+                    <label for="searchingtext">Search by any criteria:</label>
+                </div>
+                <button class="btn btn-outline-success me-2" type="submit">Search</button>
+                <a href="/add-book" class="btn btn-outline-primary pt-3 me-2">Add book</a>
+            </form>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+</header>

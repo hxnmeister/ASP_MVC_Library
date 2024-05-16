@@ -22,6 +22,7 @@ namespace ASP_MVC_Library.Controllers
             List<BookModel> foundedBooks = new List<BookModel>();
 
             searchingtext = searchingtext.Trim();
+            ViewBag.SearchCriteria = searchingtext;
 
             foreach (var book in books)
             {

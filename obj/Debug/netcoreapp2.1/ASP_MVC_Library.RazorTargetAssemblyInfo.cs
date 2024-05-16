@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP_MVC_Library")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64780e0a19598b1925b9881b17bc38b82bde3f71")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP_MVC_Library.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
