@@ -1,0 +1,14 @@
+﻿@using ASP_MVC_Library.Models
+@model BookModel
+
+@{
+    ViewBag.Title = Model?.Title ?? "No Result";
+}
+
+<div class="container text-center border mt-5">
+    <p>Id: @Model.Id</p>
+    <p>Title: @Model.Title</p>
+    <p>Author: @string.Join(", ", Model.Authors)</p>
+    <p>Publisher: @Model.Publisher</p>
+    <p>Pages: @Model.Pages</p>
+</div>

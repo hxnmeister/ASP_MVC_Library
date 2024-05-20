@@ -2,7 +2,6 @@
 @model List<BookModel>
 
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = $"Main page";
 }
 
@@ -11,13 +10,12 @@
         <div class="row row-cols-4 gy-3 col-10 text-break m-auto">
             @foreach (BookModel book in Model)
             {
-                <div class="col lh-1 book-card mx-3 p-3 border rounded">
-                    <p>Id: @book.Id</p>
-                    <p>Publisher: @book.Publisher</p>
-                    <p>Title: @book.Title</p>
-                    <p>Pages: @book.Pages</p>
-                    <p>Author(-s): @string.Join(", ", book.Authors.Select(author => author.FirstName + " " + author.LastName))</p>
-                </div>
+                <a asp-controller="Product" asp-action="GetCurrentProduct" asp-route-id="@book.Id" class="link-offset-2 link-underline link-underline-opacity-0">
+                    <div class="col lh-1 book-card mx-3 p-3 border rounded">
+                        <p>Title: @book.Title</p>
+                        <p>Author(-s): @string.Join(", ", book.Authors.Select(author => author.FirstName + " " + author.LastName))</p>
+                    </div>
+                </a>
             }
         </div>
     </div>

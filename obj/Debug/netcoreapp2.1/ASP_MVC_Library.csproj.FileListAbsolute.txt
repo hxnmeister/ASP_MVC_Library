@@ -24,8 +24,12 @@ C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\
 C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\ASP_MVC_Library.RazorTargetAssemblyInfo.cs
 C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\ASP_MVC_Library.Views.pdb
 C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\ASP_MVC_Library.csproj.CopyComplete
-C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Library\SearchingResults.cshtml.g.cs
-C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Library\CreateBook.cshtml.g.cs
 C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\ASP_MVC_Library.sourcelink.json
 C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Footer.cshtml.g.cs
 C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Header.cshtml.g.cs
+C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Library\GetQuotes.cshtml.g.cs
+C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Product\CreateBook.cshtml.g.cs
+C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Product\SearchingResults.cshtml.g.cs
+C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Chaklun\Documents\GitHub\ASP_MVC_Library\obj\Debug\netcoreapp2.1\Razor\Views\Product\GetCurrentProduct.cshtml.g.cs

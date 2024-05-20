@@ -1,0 +1,17 @@
+﻿@using ASP_MVC_Library.Models
+@model QuoteResponseModel
+
+@{
+    ViewBag.Title = "Quotes";
+}
+
+<div class="container">
+    <h1 class="text-center">Quotes by @Model.results.FirstOrDefault()?.author</h1>
+
+    <ul class="list-group list-group-flush">
+        @foreach(var quote in Model.results)
+        {
+            <li class="list-group-item">@quote.content</li>
+        } 
+    </ul>
+</div>
